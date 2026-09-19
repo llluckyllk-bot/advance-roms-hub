@@ -1,18 +1,10 @@
-const games = [
+var games = [
   {
-    title: "Anguna: Warriors of Virtue",
-    cats: ["homebrew", "rpg", "action"],
+    title: "Example Homebrew Adventure",
+    cats: ["homebrew", "rpg"],
     type: "Homebrew",
-    license: "Check redistribution license",
-    desc: "A retro-style action adventure game made for the Game Boy Advance.",
-    url: "#"
-  },
-  {
-    title: "2048 Advance",
-    cats: ["homebrew", "puzzle"],
-    type: "Homebrew",
-    license: "Check redistribution license",
-    desc: "A GBA homebrew adaptation of the popular 2048 puzzle game.",
+    license: "Verify license",
+    desc: "Sample GBA homebrew adventure game.",
     url: "#"
   },
   {
@@ -20,7 +12,15 @@ const games = [
     cats: ["indie", "platformer"],
     type: "Indie",
     license: "Verify creator permission",
-    desc: "Sample listing — replace this with a game you are authorized to distribute.",
+    desc: "Sample GBA indie platformer.",
+    url: "#"
+  },
+  {
+    title: "Example GBA Action",
+    cats: ["homebrew", "action"],
+    type: "Homebrew",
+    license: "Verify before publishing",
+    desc: "Sample GBA action game.",
     url: "#"
   }
 ];
