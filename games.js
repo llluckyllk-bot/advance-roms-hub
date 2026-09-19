@@ -1,26 +1,26 @@
 const games = [
   {
-    title: "Anguna: Fellowship of the Ring",
-    cats: ["homebrew", "rpg"],
+    title: "Anguna: Warriors of Virtue",
+    cats: ["homebrew", "rpg", "action"],
     type: "Homebrew",
-    license: "Freeware / Open-Source",
-    desc: "A full-featured top-down action-adventure RPG created specifically for Game Boy Advance.",
-    url: "https://www.bevander.com/anguna/anguna.gba"
+    license: "Check redistribution license",
+    desc: "A retro-style action adventure game made for the Game Boy Advance.",
+    url: "#"
   },
   {
-    title: "Motocross Challenge",
-    cats: ["homebrew", "action"],
+    title: "2048 Advance",
+    cats: ["homebrew", "puzzle"],
     type: "Homebrew",
-    license: "Freeware (Official Public Release)",
-    desc: "High-speed 2D motocross racing game originally developed commercially, later released for free by developers.",
-    url: "https://pockettitans.com/files/motocross_challenge.gba"
+    license: "Check redistribution license",
+    desc: "A GBA homebrew adaptation of the popular 2048 puzzle game.",
+    url: "#"
   },
   {
-    title: "GBA Runner 2",
+    title: "Example Pixel Quest",
     cats: ["indie", "platformer"],
     type: "Indie",
-    license: "Open Source",
-    desc: "A homebrew GBA platformer testing sprite animations and fast-paced jump mechanics.",
-    url: "https://github.com/mussel/GBA-Runner/releases"
+    license: "Verify creator permission",
+    desc: "Sample listing — replace this with a game you are authorized to distribute.",
+    url: "#"
   }
 ];
