@@ -1,10 +1,10 @@
 var games = [
   {
-    title: "Test GBA Game",
-    cats: ["homebrew"],
-    type: "Homebrew",
-    license: "Test",
-    desc: "This is a test game card.",
-    url: "#"
+    title: "Anguna",
+    cats: ["homebrew", "rpg", "action"],
+    type: "Adventure",
+    license: "MIT License",
+    desc: "A top-down fantasy action-adventure game for Game Boy Advance.",
+    url: "https://gauauu.itch.io/anguna"
   }
 ];
