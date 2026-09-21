@@ -8,6 +8,3 @@ var games = [
     url: "#"
   }
 ];
-
-    
-
