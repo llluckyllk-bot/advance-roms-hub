@@ -7,16 +7,15 @@ var games = [
     desc: "This is a test game card.",
     url: "#"
   }
-];const games = [
+const games = [
   {
-    id: "radical-red",
+    id: "pokemon-radical-red",
     title: "Pokemon Radical Red GBA",
-    category: "ROM Hack",
-    image: "images/radical-red.jpg",
-    // https://gbaretrogames0.blogspot.com/2026/09/pokemon-radical-red-gba-rom-download.html?m=1:
-    downloadUrl: "https://gbaretrogames0.blogspot.com/2026/09/pokemon-radical-red-gba-rom-download.html" 
-  },
-  {
+    category: "RPG",
+    image: "https://raw.githubusercontent.com/llluckyllk-bot/advance-roms-hub/main/images/radical-red.jpg", 
+    downloadUrl: "https://gbaretrogames0.blogspot.com/2026/09/pokemon-radical-red-gba-rom-download.html"
+  }
+];
 
     
 
