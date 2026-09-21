@@ -5,7 +5,7 @@ var games = [
     type: "Homebrew",
     license: "Test",
     desc: "This is a test game card.",
-    url: "#"
+    url: "https://llluckyllk-bot.github.io/advance-roms-hub/"
   }
 const games = [
   {
