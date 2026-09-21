@@ -13,15 +13,10 @@ var games = [
     title: "Pokemon Radical Red GBA",
     category: "ROM Hack",
     image: "images/radical-red.jpg",
-    // Yahan apni Blogger post ka URL daalein:
+    // https://gbaretrogames0.blogspot.com/2026/09/pokemon-radical-red-gba-rom-download.html?m=1:
     downloadUrl: "https://gbaretrogames0.blogspot.com/2026/09/pokemon-radical-red-gba-rom-download.html" 
   },
   {
-    id: "emerald-version",
-    title: "Pokemon Emerald Version",
-    category: "GBA ROM",
-    image: "images/emerald.jpg",
-    downloadUrl: "https://gbaretrogames0.blogspot.com/2026/09/pokemon-emerald-version-gba-rom.html"
-  }
-];
+
+    
 
