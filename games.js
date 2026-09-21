@@ -5,6 +5,6 @@ var games = [
     type: "Adventure",
     license: "MIT License",
     desc: "A top-down fantasy action-adventure game for Game Boy Advance.",
-    url: "https://gbaretrogames0.blogspot.com/2026/09/anguna-gba-free-homebrew-adventure-game.html?m=1"
+    url: "https://gbaretrogames0.blogspot.com"
   }
 ];
