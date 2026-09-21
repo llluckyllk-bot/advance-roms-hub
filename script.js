@@ -1,4 +1,23 @@
 let active="all";const grid=document.querySelector("#grid"),q=document.querySelector("#search"),empty=document.querySelector("#empty"),count=document.querySelector("#count");
 function render(){let s=q.value.toLowerCase();let a=games.filter(g=>(active==="all"||g.cats.includes(active))&&(`${g.title} ${g.type} ${g.desc}`.toLowerCase().includes(s)));
 grid.innerHTML=a.map(g=>`<article class="card"><div class="cover"><b>GBA</b><small>${g.type}</small></div><div class="body"><label>${g.cats[0]}</label><h3>${g.title}</h3><p>${g.desc}</p><div class="meta">🎮 Game Boy Advance<br>📜 ${g.license}</div><a class="download" href="${g.url}" onclick="${g.url==="#"?"return false":""}">${g.url==="#"?"Add authorized link":"Download"}</a></div></article>`).join("");count.textContent=`(${a.length})`;empty.style.display=a.length?"none":"block"}
-document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{active=b.dataset.cat;document.querySelectorAll("[data-cat]").forEach(x=>x.classList.remove("active"));b.classList.add("active");render()});q.oninput=render;document.querySelector("[data-cat=all]").classList.add("active");render();let a = games.filter(...)
+document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{active=b.dataset.cat;document.querySelectorAll("[data-cat]").forEach(x=>x.classList.remove("active"));b.classList.add("active");render()});q.oninput=render;document.querySelector("[data-cat=all]").classList.add("active");render();let a = games.filter(...)// Example script.js snippet for card buttons
+function renderGames(gamesList) {
+  const container = document.getElementById('games-container'); // aapka container ID
+  container.innerHTML = '';
+
+  gamesList.forEach(game => {
+    const cardHTML = `
+      <div class="game-card">
+        <img src="${game.image}" alt="${game.title}">
+        <h3>${game.title}</h3>
+        <p>${game.category}</p>
+        <a href="${game.downloadUrl}" target="_blank" rel="noopener noreferrer" class="btn">
+          Get Patch & Guide
+        </a>
+      </div>
+    `;
+    container.innerHTML += cardHTML;
+  });
+}
+
